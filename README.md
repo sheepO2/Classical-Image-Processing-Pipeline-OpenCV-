@@ -40,14 +40,14 @@ Lena 图像被广泛用于：
 
 ## 项目结构
  ~~~
-图形处理/
-|--image_processing_output/ #输出的图像结果
-  |-- original_rgb.jpg          # 原始RGB图像
-  |-- image_info.png            # 图像信息图
-  |-- enhancement.png           # 增强对比图
-  |-- restoration.png           # 复原对比图
-  |-- features.png              # 特征提取图
-  |-- segmentation.png          # 分割对比图
+demo/
+├──image_processing_output/ #输出的图像结果
+  ├── original_rgb.jpg          # 原始RGB图像
+  ├── image_info.png            # 图像信息图
+  ├── enhancement.png           # 增强对比图
+  ├── restoration.png           # 复原对比图
+  ├── features.png              # 特征提取图
+  ├── segmentation.png          # 分割对比图
   ├── processing_report.txt     # 处理报告
   └── sample_cell_image.jpg     # 示例细胞图
 ├── image_io.py        # Lena 图像读取与基础信息展示
