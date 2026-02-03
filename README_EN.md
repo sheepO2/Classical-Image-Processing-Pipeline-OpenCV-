@@ -34,18 +34,18 @@ The Lena image is widely used for:
 
 ## Project Structure
 ~~~
-image_processing/
-|--image_processing_output/ # Output images
-  |-- original_rgb.jpg          # Original RGB image
-  |-- image_info.png            # Image info chart
-  |-- enhancement.png           # Enhancement comparison
-  |-- restoration.png           # Restoration comparison
-  |-- features.png              # Feature extraction result
-  |-- segmentation.png          # Segmentation comparison
+demo/
+├──image_processing_output/ # Output images
+  ├── original_rgb.jpg      # Original RGB image
+  ├── image_info.png        # Image info chart
+  ├── enhancement.png      # Enhancement comparison
+  ├── restoration.png      # Restoration comparison
+  ├── features.png      # Feature extraction result
+  ├── segmentation.png    # Segmentation comparison
   ├── processing_report.txt     # Processing report
   └── sample_cell_image.jpg     # Sample cell image
-├── image_io.py        # Lena image loading and basic info display
-├── enhance.py         # Image enhancement and restoration experiments
+├── image_io.py     # Lena image loading and basic info display
+├── enhance.py    # Image enhancement and restoration experiments
 ├── features.py        # Feature extraction experiments (histogram / GLCM / edges)
 ├── segment.py         # Image segmentation experiments (Otsu / region growing)
 ├── demo.py            # Experiment workflow demo entry
